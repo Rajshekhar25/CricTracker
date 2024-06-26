@@ -3,6 +3,22 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const apiKey = '0a132ef8c7mshfc63cc875df757fp1dbdb3jsn4ad3941f77d4';
     const apiHost = 'cricbuzz-cricket.p.rapidapi.com';
+
+    //  const apiKey = 'c99bf3b5fcmsh78bf7999ec5b408p19fb4bjsn76999f05c7d5'; 
+    // const apiUrl = 'https://cricbuzz-cricket.p.rapidapi.com/matches/v1/recent'; 
+
+     // const fetchRecentMatches = async () => {
+     //    try
+        
+     //    {
+     //        response = await fetch(`https://${apiHost}/vrecent/v1`, {
+     //            method: 'GET',
+     //            headers: {
+     //                'X-RapidAPI-Key': apiKey,
+     //                'X-RapidAPI
+
+
+    
    
     const fetchRecentMatches = async () => {
         try {
@@ -73,6 +89,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (document.body.classList.contains('team-details')) {
         displayTeamDetails();
+
+
+        //   if (document.body.clas.contains('teamdetails')) {
+        // Team();Details
     }
 });
 
