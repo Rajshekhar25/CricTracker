@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // API details
     
-    const apiKey = '0a132ef8c7mshfc63cc875df757fp1dbdb3jsn4ad3941f77d4';
+    const apiKey = '<your_API_key';
     const apiHost = 'cricbuzz-cricket.p.rapidapi.com';
 
     //  const apiKey = 'c99bf3b5fcmsh78bf7999ec5b408p19fb4bjsn76999f05c7d5'; 
